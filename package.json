@@ -5,5 +5,17 @@
   "main": "index.js",
   "repository": "git@github.com:hashbangash/dojo_test.git",
   "author": "Ash Grevelink <ashlink1111@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "babel": {
+    "presets": ["@babel/preset-react"]
+  }
 }
